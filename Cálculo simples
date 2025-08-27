@@ -1,0 +1,6 @@
+produto1=input().split(" ")
+produto2=input().split(" ")
+c1,q1,p1=produto1
+c2,q2,p2=produto2
+c=int(q1)*float(p1)+int(q2)*float(p2)
+print(f'VALOR A PAGAR: R$ {c:.2f}')
