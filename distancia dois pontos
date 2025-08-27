@@ -1,0 +1,6 @@
+valor=input('').split()
+valor2=input('').split()
+x1,x2=valor2
+y1,y2=valor
+d=((float(x1)-float(y1))**2+(float(x2)-float(y2))**2)**0.5
+print(f'{d:.4f}')
