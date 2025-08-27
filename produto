@@ -1,0 +1,4 @@
+v=int(input(''))
+v2=int(input(''))
+PRODUTO=v*v2
+print(f'PROD = {PRODUTO}')
